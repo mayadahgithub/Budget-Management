@@ -1,0 +1,443 @@
+ #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+ .contentt {
+    position: center;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron{
+     background-image: url("../img/header-img.png");
+     background-repeat : no-repeat;
+     background-size: 100%;
+     color: #192a56;
+     /* padding-top: 190px; */
+     margin-bottom: 0%;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     padding-top: 200px;
+}
+
+.element {
+    padding-left: 520px;
+}
+/* .paddingnav{
+  padding-left: 700px;
+} */
+
+.MYlead{
+    background-color: rgba(240, 219, 236, 0.836);
+}
+
+.myheaderstyle{
+    background-color: rgba(228, 187, 226, 0.76);
+
+    font-size: 25px;
+
+}
+
+
+
+.centerjump{
+    position: center;
+}
+
+
+
+.navbar-brand{
+margin-right: -250px;
+}
+
+/* .fixTopImgHight{
+    margin-top: -30px;
+} */
+
+
+
+.space{
+    padding-left: 500px;
+}
+
+#product{
+    background-color:#dfe4ea;
+
+}
+
+
+
+.imgproductpadding{
+    padding-top: 30px;
+    padding-left: 50px;
+    /* padding-bottom: 50px; */
+}
+
+
+.ulquteremove{
+    list-style-type: none;
+}
+
+.myServiceHeadAlign{
+    text-align: center;
+}
+
+.myServiceHeadMaegin{
+    /* margin-top: 100px; */
+}
+
+
+#service{
+    padding: 100px;
+}
+
+
+#price{
+    background-color: #FFEBEE;
+    padding-top: 80px;
+}
+
+.mycard-deck{
+    /* padding-top: 80px; */
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+}
+
+
+.BusinessBackground{
+    background-image: url("../img/business1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #192a56;
+    background-position: center;
+    background-attachment: fixed;
+    /* padding-top: 190px; */
+    /* margin-bottom: 0%; */
+}  
+
+
+.serviceBackground{
+        background-image: url("../img/serviceBackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #192a56;
+        background-position: center;
+        background-attachment: fixed;
+        /* padding-top: 190px; */
+        /* margin-bottom: 0%; */ 
+}
+
+
+
+/* .IMGwidth{
+ shape-image-threshold: initial;   
+} */
+
+.my-text-business{
+ font-size: 15px;   
+ text-align:justify;
+}
+
+.businessCardTopPadding{
+    padding-top: 70px;
+}
+
+
+/* .iconCardBusinessColor{
+color: #6F1E51;
+} */
+
+/* .card{
+    box-shadow: 2px 2px 1px 2px;
+} */
+
+
+
+
+
+
+
+
+
+
+.business{
+    background: #fff;
+    /* padding: 10px 10px; */
+    border: 1px solid #ececec;
+    box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+    -webkit-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+    -moz-box-shadow:2px 2px 5px 0 rgba(55, 50, 40, .20);
+    -o-box-shadow:2px 2px 5px 0 rgba(55, 50, 40, .20);
+    -ms-box-shadow:2px 2px 5px 0 rgba(55, 50, 40, .20);
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
+.business:hover{
+    background: #B53471;
+    color: #fff;
+}
+
+.business:hover i{
+    color: #fff;
+}
+
+.business:hover h4{
+    color: #fff;
+}
+
+.business:hover p{
+    color: #fff;
+}
+
+.business i{
+    font-size: 60px;
+    color: #B53471;
+    margin-bottom: 20px;
+}
+
+.business h4{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;   
+}
+
+.business p{
+    font-size: 12px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.paddingTop{
+    padding-top: 40px;
+}
+
+.paddingDown{
+    padding-bottom: 40px;
+}
+
+.mySpan{
+    background-color: #c8d6e5;
+    color: #222f3e;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#contact{
+    background-color: #FCE4EC;
+}
+
+
+
+
+.colorlink{
+        color: rgb(81, 148, 153); 
+   
+    }
+
+    
+.footerHeadingColor{
+        color: rgb(234, 240, 240); 
+ 
+    }
+
+
+
+.paddingLiftZeroContact{
+     padding-left: 37px;   
+
+    }
+
+
+
+
+/* #MyInfo{
+        background-color:#bdc3c7;
+        padding-top: 70px;
+        padding-bottom: 70px; 
+    } */
+
+#MyTeam{
+        padding-top: 70px;
+        padding-bottom: 70px;    
+    }
+
+
+
+a:hover{
+        color: #777777;
+    }
+
+
+a{
+        color: #222f3e;
+    }
+
+
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {    
+    color: #B53471;
+
+    }
+
+
+
+
+
+
+.card-img-top{
+    height: 10pc;
+}
+
+.carouselSize{
+    height: 425px;
+    width: 350px;
+    padding-left: 3pc;
+    
+}
+.w-100 {
+    width: 96% !important;
+
+}
+.fixed-top {
+
+    position: fixed;
+    top: 25px;
+    /* right: 5px;
+    left: 5px; */
+    z-index: 1030;
+}
+
+
+
+
+div#navbarSupportedContent.collapse.navbar-collapse{
+    padding-left: 75px;
+}
+
+
+
+
+
+
+#btnScroll{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* collabsColor */
+.btn-link {
+    font-weight: 400;
+    color: #2980b9;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+.display-4 {
+    font-weight: 300;
+    line-height: 2;
+}
+
+
+
+div.col-sm-12.col-md-12.col-lg-6{
+    text-align: right;
+}
+
+.figure-caption {
+    font-size: 90%;
+    color: #394044;
+}
+.text-muted {
+    color: #565d63 !important;
+}
+
+
+
+body {
+
+
+
+
+    font-family: 'El Messiri', sans-serif;
+
+
+   }
