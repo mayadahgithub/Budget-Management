@@ -1,3 +1,4 @@
+ /*video background*/
  #myVideo {
     position: fixed;
     right: 0;
@@ -7,16 +8,15 @@
 }
 
 
-
+ /*خاص بال p
+ للنص على السلايدر*/
  .contentt {
     position: center;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
-    
-    
+    padding: 20px; 
 }
 
 
@@ -38,7 +38,8 @@
 
 
 
-
+ /*خاص بال 
+ الايرادات والنفقات والمتبقي من الحساب*/
 .jumbotron{
      background-image: url("../img/header-img.png");
      background-repeat : no-repeat;
@@ -52,29 +53,18 @@
      padding-top: 200px;
 }
 
-.element {
-    padding-left: 520px;
-}
-/* .paddingnav{
-  padding-left: 700px;
-} */
 
-.MYlead{
-    background-color: rgba(240, 219, 236, 0.836);
-}
 
+
+
+
+ /*خاص بال h1
+ الايرادات والنفقات والمتبقي من الحساب*/
 .myheaderstyle{
     background-color: rgba(228, 187, 226, 0.76);
-
     font-size: 25px;
-
 }
 
-
-
-.centerjump{
-    position: center;
-}
 
 
 
@@ -82,107 +72,35 @@
 margin-right: -250px;
 }
 
-/* .fixTopImgHight{
-    margin-top: -30px;
-} */
 
 
 
-.space{
-    padding-left: 500px;
-}
-
-#product{
-    background-color:#dfe4ea;
-
-}
-
-
-
-.imgproductpadding{
-    padding-top: 30px;
-    padding-left: 50px;
-    /* padding-bottom: 50px; */
-}
-
-
+/*لتحديد نوع اللست بال 
+ul*/
 .ulquteremove{
     list-style-type: none;
 }
 
-.myServiceHeadAlign{
-    text-align: center;
-}
-
-.myServiceHeadMaegin{
-    /* margin-top: 100px; */
-}
-
-
-#service{
-    padding: 100px;
-}
-
-
-#price{
-    background-color: #FFEBEE;
-    padding-top: 80px;
-}
-
-.mycard-deck{
-    /* padding-top: 80px; */
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 80px;
-}
-
-
-.BusinessBackground{
-    background-image: url("../img/business1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #192a56;
-    background-position: center;
-    background-attachment: fixed;
-    /* padding-top: 190px; */
-    /* margin-bottom: 0%; */
-}  
-
-
-.serviceBackground{
-        background-image: url("../img/serviceBackground.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: #192a56;
-        background-position: center;
-        background-attachment: fixed;
-        /* padding-top: 190px; */
-        /* margin-bottom: 0%; */ 
-}
 
 
 
-/* .IMGwidth{
- shape-image-threshold: initial;   
-} */
 
+
+
+/*ل ال p
+لكارد الخاص بالايرادات*/
 .my-text-business{
  font-size: 15px;   
  text-align:justify;
 }
 
+
+/*لاعطاء مسافة قبل سكشن الاتصال*/
 .businessCardTopPadding{
     padding-top: 70px;
 }
 
 
-/* .iconCardBusinessColor{
-color: #6F1E51;
-} */
-
-/* .card{
-    box-shadow: 2px 2px 1px 2px;
-} */
 
 
 
@@ -191,7 +109,7 @@ color: #6F1E51;
 
 
 
-
+/*لاعطاء جمالية لالوان الكارد في الايرادات*/
 
 .business{
     background: #fff;
@@ -245,6 +163,7 @@ color: #6F1E51;
     margin-bottom: 20px;
 }
 
+/*نهاية التحكم بالوان الكارد بالايرادات*/
 
 
 
@@ -254,55 +173,34 @@ color: #6F1E51;
 
 
 
-.paddingTop{
-    padding-top: 40px;
-}
 
+
+ /*خاص بال 
+ الايرادات والنفقات والمتبقي من الحساب*/
 .paddingDown{
     padding-bottom: 40px;
 }
 
-.mySpan{
-    background-color: #c8d6e5;
-    color: #222f3e;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-#contact{
-    background-color: #FCE4EC;
-}
 
 
 
 
+
+
+
+/*تحديد لون الفوتر*/
 .colorlink{
         color: rgb(81, 148, 153); 
-   
     }
 
     
-.footerHeadingColor{
-        color: rgb(234, 240, 240); 
- 
-    }
-
-
-
-.paddingLiftZeroContact{
-     padding-left: 37px;   
-
-    }
 
 
 
 
-/* #MyInfo{
-        background-color:#bdc3c7;
-        padding-top: 70px;
-        padding-bottom: 70px; 
-    } */
 
+/*اعطاء padding
+ ل حول*/
 #MyTeam{
         padding-top: 70px;
         padding-bottom: 70px;    
@@ -310,44 +208,54 @@ color: #6F1E51;
 
 
 
-a:hover{
-        color: #777777;
-    }
 
+
+
+
+/*لتحكم بتغير لون النافبار اثناء كلك عليها*/
+a:hover{
+        color: #4d4949;
+       }
 
 a{
-        color: #222f3e;
-    }
-
-
-
+color: #1a2633;
+}
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {    
-    color: #B53471;
-
+    color: rgb(245, 8, 118);
     }
+/*نهاية التحكم بتغير لون النافبار   */
 
 
 
 
 
 
+
+
+/*تحديد صورة فقرة النفقات*/
 .card-img-top{
     height: 10pc;
 }
 
+
+/*تحديد حجم السلايد*/
 .carouselSize{
     height: 425px;
     width: 350px;
-    padding-left: 3pc;
-    
+    padding-left: 3pc;   
 }
 .w-100 {
     width: 96% !important;
-
 }
-.fixed-top {
+/*نهاية تحديد حجم السلايد*/
 
+
+
+
+
+/* التحكم بشكل النافبار*/
+.fixed-top {
     position: fixed;
     top: 25px;
     /* right: 5px;
@@ -358,15 +266,10 @@ a{
 
 
 
-div#navbarSupportedContent.collapse.navbar-collapse{
-    padding-left: 75px;
-}
 
 
 
-
-
-
+/*خاص ب بوتون العودة الى الاعلى*/
 #btnScroll{
     display: none;
     position: fixed;
@@ -381,27 +284,10 @@ div#navbarSupportedContent.collapse.navbar-collapse{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* collabsColor */
+/*خاص بالمتبقي من الحساب */
 .btn-link {
     font-weight: 400;
-    color: #2980b9;
+    color: #8b046e;
     background-color: transparent;
 }
 
@@ -410,34 +296,36 @@ div#navbarSupportedContent.collapse.navbar-collapse{
 
 
 
-
+ /*خاص بال 
+ الايرادات والنفقات والمتبقي من الحساب*/
 .display-4 {
     font-weight: 300;
     line-height: 2;
 }
 
 
-
+ /*خاص بنصوص تواصل معنا */
 div.col-sm-12.col-md-12.col-lg-6{
     text-align: right;
 }
 
+
+
+/*لتحكم بالتص اسفل صور فريق العمل*/
 .figure-caption {
     font-size: 90%;
-    color: #394044;
+    color: #010c11;
 }
+
+
+/*لتحكم بنص سكشن تواصل معنا*/
 .text-muted {
-    color: #565d63 !important;
+    color: #2f3133 !important;
 }
 
 
 
+/*لتحديد نوع الخط*/
 body {
-
-
-
-
     font-family: 'El Messiri', sans-serif;
-
-
    }
