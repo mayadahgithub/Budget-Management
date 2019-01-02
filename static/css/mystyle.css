@@ -64,13 +64,10 @@
     background-color: rgba(228, 187, 226, 0.76);
     font-size: 25px;
 }
-
-
-
-
 .navbar-brand{
 margin-right: -250px;
 }
+
 
 
 
@@ -80,10 +77,6 @@ ul*/
 .ulquteremove{
     list-style-type: none;
 }
-
-
-
-
 
 
 
@@ -99,15 +92,6 @@ ul*/
 .businessCardTopPadding{
     padding-top: 70px;
 }
-
-
-
-
-
-
-
-
-
 
 /*لاعطاء جمالية لالوان الكارد في الايرادات*/
 
@@ -162,15 +146,7 @@ ul*/
     color: #777777;
     margin-bottom: 20px;
 }
-
 /*نهاية التحكم بالوان الكارد بالايرادات*/
-
-
-
-
-
-
-
 
 
 
@@ -184,20 +160,12 @@ ul*/
 
 
 
-
-
-
-
 /*تحديد لون الفوتر*/
 .colorlink{
-        color: rgb(81, 148, 153); 
+        color: rgb(5, 168, 177); 
     }
 
-    
-
-
-
-
+  
 
 /*اعطاء padding
  ل حول*/
@@ -212,24 +180,19 @@ ul*/
 
 
 
-/*لتحكم بتغير لون النافبار اثناء كلك عليها*/
+/*لتحكم بتغير لون النافبار اثناء كلك عليها ايضا بلون اللنك*/
 a:hover{
-        color: #4d4949;
+        color: #00000e;
        }
 
 a{
-color: #1a2633;
+color: #2a2f38;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {    
     color: rgb(245, 8, 118);
     }
 /*نهاية التحكم بتغير لون النافبار   */
-
-
-
-
-
 
 
 
@@ -314,13 +277,13 @@ div.col-sm-12.col-md-12.col-lg-6{
 /*لتحكم بالتص اسفل صور فريق العمل*/
 .figure-caption {
     font-size: 90%;
-    color: #010c11;
+    color: #d4c9d4;
 }
 
 
 /*لتحكم بنص سكشن تواصل معنا*/
 .text-muted {
-    color: #2f3133 !important;
+    color: #d4c9d4 !important;
 }
 
 
@@ -329,3 +292,5 @@ div.col-sm-12.col-md-12.col-lg-6{
 body {
     font-family: 'El Messiri', sans-serif;
    }
+
+

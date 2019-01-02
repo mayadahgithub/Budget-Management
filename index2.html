@@ -5,6 +5,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<style>
+  div.example {
+    background-color: rgb(251, 252, 255);
+    padding-top: 15px;
+    padding-bottom: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  @media screen and (min-width: 601px) {
+    div.example {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 10px;
+    } 
+  } 
+  </style>
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="static/css/bootstrap.min.css">
 <link rel="stylesheet" href="static/css/font-awesome.min.css">
@@ -15,7 +37,7 @@
 <title>تنظيم الميزانية</title>
 </head>
 
-
+<body>
 
 <!-- Navbar-->    
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="height:12%;" >
@@ -223,33 +245,26 @@
 
               <br><br>
 
-        <div class="row">
-           <div class="col-sm-12 col-md-12 col-lg-12">
-
-              <li class="list-group-item"  >  
-
+              <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <li class="list-group-item"  style="height: 55px;">  
+               
               <div class="input-group">
               <div class="input-group-append"><b>
-              <!-- <span class="input-group-text">تواصل معنا </span>   -->
               تــــواصل معنـــا
               </b></div>
               </div>
               </li>  
-              </div>
-              </div>
-
-              <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-6">
-              <br>
+              <br><br>
               <form>
-              <div class="form-group">
-              <input type="text" class="form-control"  placeholder="ادخل اسمك">
-              <br>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ادخل ايميلك">
+              <div class="form-group" >
+              <input type="text" class="form-control" style="height: 55px;" placeholder="ادخل اسمك">
+              <br><br>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="height: 55px;" placeholder="ادخل ايميلك">
               <small id="emailHelp" class="form-text text-muted">لن نشارك بريدك الإلكتروني مطلقًا مع أي شخص آخر.</small>
-              </div>
+              </div><br>
               <div class="form-group">
-              <textarea type="text" class="form-control"  placeholder="اكتب تعليقاتك من فضلك"></textarea>
+              <textarea type="text" class="form-control" style="height: 258px;" placeholder="اكتب تعليقاتك من فضلك .."></textarea>
               </div>
 
               <button type="submit" class="btn btn-info">ارسال</button>
@@ -257,29 +272,25 @@
               </form>     
               </div>
 
-              <div class="col-sm-12 col-md-12 col-lg-6">
-              <li class="list-group-item" style="height: 245px; overflow: scroll;">  
-
-
+              
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12" >
               <div class="input-group">
               <div class="input-group-append">
-
-
               <br>
               <ul class="ulquteremove" >
-              <li >
-  
-                <p style="text-align: center">Code For Iraq</p>
-                <p style="text-align: center"> فريق البرمجة من اجل العراق</p>
-                <p style="text-align: center">وهي مبادرة انسانية غير ربحية تهدف الى خدمة المجتمع عن طريق البرمجة. تعتبر هذه المبادرة مبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهواتف الجوالة ومواقع الانترنت ومواقع الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر كما توفر لهم جميع الدروس التعليمية اللازمة وبشكل مجاني تماما بل الاهم من ذلك تعتمد على مبدأ المواطنة والمشاركة الفعالة في تأسيس وبناء المجتمع. تدعو هذه المبادرة جميع الطلبة والخريجين والهواة والاساتذة الجامعيين والمهتمين في مجال البرمجة وكذلك الاختصاصات الاخرى الى التطوع والمشاركة الفعلية لاجل الارتقاء بواقع البلد, حيث تعتبر فرصة عظيمة لاكتساب الخبرة والمهارة عن طريق تصميم وتنفيذ برامج وتطبيقات خدمية من شأنها خدمة المواطن وذلك ضمن مجاميع عمل نشطة وفعالة يتعامل فيها جميع الافراد كفريق واحد يتبادل الاراء والخبرات ويطرح الافكار ليتم مناقشتها وتطبيقها على ارض الواقع, كما تفتح المجال لجميع المواطنين العراقيين ومن جميع الاختصاصات الى المشاركة الفعالة في هذه المشاريع لرفد الفريق بالخبرات والافكار والاراء والمقترحات التي من شأنها خدمة المجتمع بافضل ما يمكن</p>
-
-                <p style="text-align: center">للانضمام او المراسلة عبر البريد الالكتروني</p>
-                <a href="#"><p style="text-align: center; color:rgb(1, 135, 175);">info@codeforiraq.org</p></a>
-              </li>
+            <li>
+              <div class="example">
+                  <p style="text-align: center;">Code For Iraq</p>
+                  <p style="text-align: center; "> فريق البرمجة من اجل العراق</p>
+                  <p style="text-align: center;">وهي مبادرة انسانية غير ربحية تهدف الى خدمة المجتمع عن طريق البرمجة. تعتبر هذه المبادرة مبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهواتف الجوالة ومواقع الانترنت ومواقع الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر كما توفر لهم جميع الدروس التعليمية اللازمة وبشكل مجاني تماما بل الاهم من ذلك تعتمد على مبدأ المواطنة والمشاركة الفعالة في تأسيس وبناء المجتمع. تدعو المبادرة جميع الطلبة والخريجين والهواة والاساتذة الجامعيين والمهتمين في مجال البرمجة وكذلك الاختصاصات الاخرى الى التطوع والمشاركة الفعلية لاجل الارتقاء بواقع البلد, حيث تعتبر فرصة عظيمة لاكتساب الخبرة والمهارة عن طريق تصميم وتنفيذ برامج وتطبيقات خدمية من شأنها خدمة المواطن وذلك ضمن مجاميع عمل نشطة وفعالة يتعامل فيها جميع الافراد كفريق واحد يتبادل الاراء والخبرات ويطرح الافكار ليتم مناقشتها وتطبيقها على ارض الواقع, كما تفتح المجال لجميع المواطنين العراقيين ومن جميع الاختصاصات الى المشاركة الفعالة في هذه المشاريع لرفد الفريق بالخبرات والافكار والاراء والمقترحات التي من شأنها خدمة المجتمع بافضل ما يمكن</p>
+                  <p style="text-align: center;">للانضمام او المراسلة عبر البريد الالكتروني</p>
+                  <a href="#"><p style="text-align: center; color:rgb(1, 135, 175);">info@codeforiraq.org</p></a>
+              </div>
+            </li>
             </ul>
               </div>
               </div>
-              </li>
+              <br><br><br>
            </div>
         </div>
     </div>
