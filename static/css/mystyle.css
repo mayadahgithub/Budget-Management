@@ -23,21 +23,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /*خاص بال 
  الايرادات والنفقات والمتبقي من الحساب*/
 .jumbotron{
@@ -90,7 +75,7 @@ ul*/
 
 /*لاعطاء مسافة قبل سكشن الاتصال*/
 .businessCardTopPadding{
-    padding-top: 70px;
+    padding-top: 188px;
 }
 
 /*لاعطاء جمالية لالوان الكارد في الايرادات*/
@@ -204,9 +189,10 @@ color: #2a2f38;
 
 /*تحديد حجم السلايد*/
 .carouselSize{
-    height: 425px;
+    height: 608px;
     width: 350px;
-    padding-left: 3pc;   
+    padding-left: 3pc;
+    padding-top: 130px;   
 }
 .w-100 {
     width: 96% !important;
